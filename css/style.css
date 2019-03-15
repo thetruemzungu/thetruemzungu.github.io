@@ -1,0 +1,15 @@
+.svg-container svg {
+  margin-top: 40px;
+  width: auto;
+  height: auto;
+  max-height: 500px;
+}
+
+#speech-bubble {
+  opacity: 0;
+  transition: .2s ease opacity;
+}
+
+#speech-bubble.active {
+  opacity: 1;
+}
